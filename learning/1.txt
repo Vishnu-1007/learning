@@ -8,7 +8,7 @@ The server processes the request and sends back the webpage files in the form of
 
 Therefore, opening a website is not simply retrieving a page but rather a complex communication procedure in which the computer locates another computer using DNS, establishes a secure connection, transfers data across the global network as packets, reconstructs the received information locally, and executes it inside the browser to generate the final interactive web application visible to the user
 
-
+What reading this we can get many questions in our mind 
 For example:
 
 How does a computer make a connection to a domain name?
