@@ -1,0 +1,27 @@
+What is Internet??
+
+The Internet can be described as a global connection of computers that continuously send, receive, and exchange data between each other using standardized communication rules, and whenever a user types a URL such as youtube.com into a web browser, a detailed multi-step process begins inside the laptop before any webpage appears on the screen. First, the browser recognizes that the user has entered a website address instead of a search query and converts it into a complete web address, after which it asks the operating system to locate the IP address corresponding to that domain name because computers cannot communicate using human-readable names and instead require numeric identifiers. The operating system then checks its local storage, including browser cache and system DNS cache, to determine whether the IP address has been previously saved, and if the address is not available locally, the computer sends a DNS request through the network adapter to a DNS server asking for the IP address of the requested website, and the DNS server searches its distributed database or queries other DNS servers and finally responds with the correct numeric IP address of the remote computer that hosts the website.
+
+Once the IP address is received, the laptop initiates a communication session by establishing a TCP connection through a handshake process in which both computers confirm that they are ready to exchange information reliably, and immediately after the connection is established the browser negotiates a secure encrypted channel using HTTPS so that the transmitted data cannot be read or modified by intermediate devices. The browser then sends an HTTP request asking the remote server for the homepage resources, and inside the laptop this request travels through several layers where the text message is converted into bytes, the bytes are stored as binary values of ones and zeros in memory, and the Wi-Fi hardware transforms those binary signals into radio waves that are transmitted through the air to the router and then through multiple routers across the global internet infrastructure until they reach the destination server.
+
+The server processes the request and sends back the webpage files in the form of many small packets containing HTML structure, CSS styling information, and JavaScript behavior code, and these packets travel back through different network paths until they reach the user’s computer, where the Wi-Fi adapter converts radio waves back into binary data, the operating system reassembles the packets in the correct order, and the browser begins its rendering process by constructing the document object model from HTML, applying visual styles from CSS, executing JavaScript instructions, and finally instructing the graphics hardware to draw pixels on the screen so the user can see and interact with the webpage.
+
+Therefore, opening a website is not simply retrieving a page but rather a complex communication procedure in which the computer locates another computer using DNS, establishes a secure connection, transfers data across the global network as packets, reconstructs the received information locally, and executes it inside the browser to generate the final interactive web application visible to the user
+
+
+For example:
+
+How does a computer make a connection to a domain name?
+
+How does the computer know where the remote computer is located in the world?
+
+What exactly is a DNS server?
+
+Where are DNS servers physically located?
+
+Who owns and maintains these DNS servers?
+
+What is a domain name and why do we need it?
+
+Who controls the Internet and the communication rules?
+
